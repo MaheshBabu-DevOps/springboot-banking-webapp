@@ -18,7 +18,7 @@ public class AccountService {
 	//continue from line : 115
 	public List<Account> getAccounts(){
 		/*return Arrays.asList(
-			new Policy("1", "maheshbabu", "maheshbabu address", "123456789"),
+			new Policy("1", "maheshBabu", "maheshBabu address", "123456789"),
 		);*/	
 		List<Account> accountList = new ArrayList<Account>();
 		AccountDAORepository.findAll().forEach(accountList::add);
