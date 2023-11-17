@@ -18,7 +18,7 @@ public class AccountController {
 
     @RequestMapping("hello")
     public String doSomething() {
-        return "Welcome to Maheshbabu Banking website";
+        return "Welcome to MaheshBabu Banking website";
     }
 
     @RequestMapping("/account/{id}")
