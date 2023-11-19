@@ -50,7 +50,7 @@ public class BankingTest extends TestCase{
         //WebElement searchInput = driver.findElement(By.name("q"));
 		WebElement e = driver.findElement(By.xpath("//*[text()='Welcome to Tousif Banking website']"));
 		System.out.println("Element with text(): [" + e.getText() +"]");
-		Assert.assertEquals("Welcome to Tousif Banking website", e.getText());
+		Assert.assertEquals("Welcome to maheshbabu Banking website", e.getText());
 		
 		driver.quit();
         
