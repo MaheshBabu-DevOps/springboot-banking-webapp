@@ -48,9 +48,9 @@ public class BankingTest extends TestCase{
         waitForMe(2000);
 		// Find the search input element
         //WebElement searchInput = driver.findElement(By.name("q"));
-		WebElement e = driver.findElement(By.xpath("//*[text()='Welcome to Tousif Banking website']"));
+		WebElement e = driver.findElement(By.xpath("//*[text()='Welcome to MaheshBabu Banking website']"));
 		System.out.println("Element with text(): [" + e.getText() +"]");
-		Assert.assertEquals("Welcome to maheshbabu Banking website", e.getText());
+		Assert.assertEquals("Welcome to MaheshBabu Banking website", e.getText());
 		
 		driver.quit();
         
