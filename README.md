@@ -24,8 +24,8 @@ A secure and modular Spring Boot-based banking application designed to demonstra
 
 ## 🔧 Tech Stack
 --------------------------------------------------------------------------------
-| Category         | Tools & Technologies                                      |
-|------------------|-----------------------------------------------------------|
+| Category         | Tools & Technologies                                       |
+|------------------|----------------------------------------------------------- |
 | **Backend**       | Java, Spring Boot, Maven, H2 Database                     |
 | **CI/CD**         | Git, GitHub, Jenkins, Docker, SonarQube                   |
 | **Testing**       | JUnit, TestNG                                             |
